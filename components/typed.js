@@ -2,14 +2,13 @@ import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 
 export default function AutoType() {
-  // Create Ref element.
   const el = useRef(null);
 
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
         "Welcome, to WGU Advice...",
-        "For <span style='color: purple'>BSSD</span> and <span style='color: purple'>BSCS</span> students...",
+        "For BSSD and BSCS students...",
       ],
     
       typeSpeed: 75,
@@ -19,7 +18,6 @@ export default function AutoType() {
       showCursor: true,
     });
 
-    // Destropying
     return () => {
       typed.destroy();
     };
@@ -27,7 +25,6 @@ export default function AutoType() {
 
   return (
     <div>
-      {/* Element to display typing strings */}
       <span ref={el}></span>
     </div>
   );

@@ -15,7 +15,8 @@ module.exports = {
         'pill': '100px',
       },
       fontFamily: {
-        'gemunu': ['"Gemunu Libre"', 'sans-serif'],
+        'gemunu': ['"Gemunu Libre"', 'serif'],
+        'albert': ['"Albert Sans"', 'serif'],
       },
       transitionDuration: {
         '3000': '3000ms',
