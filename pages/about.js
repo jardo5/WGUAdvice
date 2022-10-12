@@ -3,6 +3,7 @@ import NavBar from '../components/navbar.js';
 export default function About() {
     return (
         <>
+        {/* TODO: Format w/ Prettier when fished. */}
         <NavBar></NavBar>
         <div className='h-screen w-screen'>
         <div id='bg' className='w-screen h-screen overflow-auto'>
@@ -14,20 +15,20 @@ export default function About() {
                     <div class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></div>
                     <div class="ml-2 h-3 w-3 bg-green-500 rounded-full"></div>
                 </div>
-                <div class="mt-4 flex">
-                    <span class="text-green-400">Users-MacBook-Pro ~ %</span>
-                    <p class="flex-1 typing items-center pl-2 ">
+                <div class="mt-4 flex-1 mobile:text-xs">
+                    <span class="text-green-400 whitespace-nowrap">Users-MacBook-Pro ~ %</span>
+                    <p class="flex-1 typing items-center pl-2">
                         echo Thank you for visiting! This website was created for 
                         the purpose of helping all WGU BSSD & BSCS students. Hope you can find
                         something useful. I will try to keep everything updated as much as possible. 
                         If there's something I should add/remove message me on discord and let me know. 
                         <br />
                         <br />
-                        This site was built using MongoDB, Express, Next.js, and Node.
+                        This site was built using MongoDB, ExpressJS, ReactJS (Next.js), and NodeJS.
                         <br />
                         <br />
-                         {/* TODO: Fix mobile, add blinking cursor. Make text smaller? mobile: */}
-                        Other technologies used were TailwindCSS, and DaisyUI (For some UI) and Typed.js for typing animation.
+                         {/* TODO: Fix mobile, add blinking cursor. */}
+                        Other technologies used were TailwindCSS, and DaisyUI and Typed.js.
                     </p>
                 </div>
             </div>
@@ -37,21 +38,27 @@ export default function About() {
                 <div className='bg-abtSlate flex w-72 h-80 justify-center items-center shadow-md shadow-black rounded-2xl'>
                     <div className='bg-abtBlue w-64 h-72 flex flex-col justify-evenly items-center rounded-2xl'>
                         <div className="tooltip" data-tip="Jardo#1108">
-                    <img src='images/discordBlack.png' alt="Discord Logo" width="172px" height="172px" ></img>
+                    <img className="hover:scale-110" src='images/discordBlack.png' alt="Discord Logo" width="172px" height="172px" ></img>
                     </div>
                         <h1>Feel free to ask questions</h1>
                     </div>
                 </div>
                 <div className='bg-abtSlate flex w-72 h-80 justify-center items-center shadow-md shadow-black rounded-2xl'>
-                    <div className='bg-abtBlue w-64 h-72 flex flex-col justify-evenly items-center rounded-2xl'>
-                    <img src='images/githubBlack.png' alt="Github Logo" width="172px" height="172px" ></img>
+                    <div className='bg-abtPink w-64 h-72 flex flex-col justify-evenly items-center rounded-2xl'>
+                    <a href="https://github.com/jardo5" target="_blank">
+                    <img className="hover:scale-110" src='images/githubBlack.png' alt="Github Logo" width="172px" height="172px" ></img>
+                    </a>    
                         <h1>Source Code</h1>
                     </div>
                 </div>
                 <div className='bg-abtSlate flex w-72 h-80 justify-center items-center shadow-md shadow-black rounded-2xl'>
                     <div className='bg-abtBlue w-64 h-72 flex flex-col justify-evenly items-center rounded-2xl'>
-                        <img src='images/webpageBlack.png' alt="Webpage Logo" width="172px" height="172px" ></img>
-                        <h1>Personal Website W.I.P</h1>
+                    <a href="#" target="_blank">
+                    <div className="tooltip" data-tip="W.I.P">
+                        <img className="hover:scale-110" src='images/webpageBlack.png' alt="Webpage Logo" width="172px" height="172px" ></img>
+                    </div>
+                    </a>
+                        <h1>Personal Website</h1>
                     </div>
                 </div>
             </div>
