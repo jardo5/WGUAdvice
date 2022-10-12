@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <NavBar></NavBar>
-      <div className="bg-gradient-to-tr from-teal-600 to-green-900">
+      <div className="bg-gradient-to-bl from-[#A17C7D] to-[#3C4F67]">
         <div className="flex flex-col justify-center w-screen h-screen text-center">
           <div className="flex flex-col items-center justify-center gap-12 text-zinc-900">
             <div className="text-center transition-opacity font-gemunu text-7xl">
@@ -27,8 +27,8 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-[#18181b]">
-        <div className="flex justify-center w-screen pt-12 pb-12 text-6xl text-white font-gemunu">
-          <h1>Resources</h1>
+        <div className="flex justify-center w-screen pt-12 pb-12 text-6xl text-white font-albert">
+          <h1>Quick Links</h1>
         </div>
 
         <div className="flex flex-row justify-around w-screen pt-12 pb-12 text-6xl h-fit mobile:flex-col mobile:gap-8">

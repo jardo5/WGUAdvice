@@ -1,3 +1,5 @@
+const colorNames = require('daisyui/src/colors/colorNames');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -20,7 +22,13 @@ module.exports = {
       },
       transitionDuration: {
         '3000': '3000ms',
-      }
+      },
+      colors: {
+        'abtBlue': '#3C4F67',
+        'abtPink': '#A17C7D',
+        'abtSlate': '#2A303C',
+        'abtBlack': '#18181b',
+      },
     },
   },
   plugins: [require("daisyui")],

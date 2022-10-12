@@ -27,7 +27,7 @@ export default function NavBar() {
         <div className="flex items-stretch">
           <div className="dropdown dropdown-end">
             <label tabIndex="0" className="btn btn-ghost rounded-btn">
-              Links
+              Pages
             </label>
             <ul
               id="drop"
