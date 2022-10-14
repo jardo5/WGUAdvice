@@ -8,10 +8,10 @@ export default function NavBar() {
           <Link href="/">Home</Link>
         </label>
       </div>
-      <div className="flex pl-2">
-        <div className="flex items-stretch">
+      <div className="flex-1 justify-center">
+        <div className="flex">
           <a href="https://www.wgu.edu/" target="_blank">
-            <div className="eo">
+            <div className="tooltip tooltip-bottom tooltip-warning" data-tip="This website is NOT associated with WGU!">
               <img
                 className="brightness-[100%] contrast-[5%]"
                 src="/images/owl.png"

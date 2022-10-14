@@ -2,6 +2,7 @@ import React from "react";
 import App from "../components/typed.js";
 import NavBar from "../components/navbar.js";
 
+
 export default function Home() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function Home() {
             </div>
             <div className="text-xl text-center w-96 font-albert">
               <p>
+                {/* TODO: Write Something */}
                 Welcome, Lorem, ipsum dolor sit amet consectetur adipisicing
                 elit. Quaerat in eligendi ipsam nihil atque repellendus
                 voluptates totam aut, labore accusamus. Laboriosam recusandae a
@@ -48,7 +50,7 @@ export default function Home() {
           <div className="card w-96 flex justify-center bg-[#2a303c] shadow-xl rounded-pill p-14">
             <a href="https://discord.com/invite/unwgu" target="_blank">
               <figure className="flex justify-center transition duration-500 transform hover:scale-150">
-                <img
+                <img className="hover:<"
                   src="images/discord.png"
                   width="100px"
                   height="100px"
