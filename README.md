@@ -1,7 +1,7 @@
 
 ## Welcome to WGU Advice!
 
-A website with resources and recommendations for BSSD and BSCS WGU students.
+A website with resources and recommendations for BSSD and BSCS WGU students. W.I.P
 
 
 
