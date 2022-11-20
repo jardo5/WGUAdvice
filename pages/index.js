@@ -26,7 +26,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center text-center animate-pulse 1s">
-          <Image src="images/arrow.png" height="128px" width="128px" />
+          <Image src="images/arrow.png" height="128px" width="128px" alt="Arrow" />
         </div>
       </div>
       <div className="bg-[#18181b]">
