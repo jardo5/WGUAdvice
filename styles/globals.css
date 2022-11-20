@@ -13,3 +13,34 @@
     background: linear-gradient(180deg, rgba(60,79,103,1) 65%, rgba(161,124,125,1) 65%);
 }
 
+
+/* Recommend.js */
+
+#e {
+    color: green;
+}
+
+#m {
+    color: orange;
+}
+
+#h {
+    color: red;
+}
+
+#soon {
+    opacity: 15%;
+    text-decoration: line-through;
+}
+
+#wgu {
+    color: #001731;
+}
+
+#sdc {
+    color: #1497B1;
+}
+
+#soph {
+    color: #D4E21A;
+}
