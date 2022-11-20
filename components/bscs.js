@@ -1,10 +1,10 @@
 import React from "react";
 import '../components/search.js'
 
-export default function BSSD(){
+export default function BSCS(){
     return (
-    <div id="Tables" className="overflow-x-auto">
-        <table id="myTable" className="table w-full none text-center">
+    <div id="Tables1" className="overflow-x-auto hidden">
+        <table id="myTable" className="table w-full text-center">
             <thead>
             <tr>
                 <th>Class Code</th>
@@ -16,7 +16,7 @@ export default function BSSD(){
             <tbody>
             <tr className="w-screen break-all">
                 <td>C455</td>
-                <td>English Composition 1</td>
+                <td>THIS IS BSCS</td>
                 <td id="e">Easy</td>
                 <td> <div> <button className="tooltip whitespace-normal" data-tip="Lorem ipsum" id="soph">Sophia </button> </div></td>
             </tr>

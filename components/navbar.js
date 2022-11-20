@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function NavBar() {
   return (
@@ -12,13 +13,13 @@ export default function NavBar() {
         <div className="flex">
           <a href="https://www.wgu.edu/" target="_blank">
             <div className="tooltip tooltip-bottom tooltip-warning" data-tip="This website is NOT associated with WGU!">
-              <img
+              <Image
                 className="brightness-[100%] contrast-[5%]"
                 src="/images/owl.png"
                 alt="WGU Owl"
                 height="55px"
                 width="55px"
-              ></img>
+              />
             </div>
           </a>
         </div>
