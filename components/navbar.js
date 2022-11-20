@@ -11,7 +11,7 @@ export default function NavBar() {
       </div>
       <div className="flex-1 justify-center">
         <div className="flex">
-          <a href="https://www.wgu.edu/" target="_blank">
+          <a href="https://www.wgu.edu/" target="_blank" rel="noreferrer">
             <div className="tooltip tooltip-bottom tooltip-warning" data-tip="This website is NOT associated with WGU!">
               <Image
                 className="brightness-[100%] contrast-[5%]"

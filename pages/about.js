@@ -28,7 +28,6 @@ export default function About() {
                         This site was built using MongoDB, ExpressJS, ReactJS (Next.js), and NodeJS.
                         <br />
                         <br />
-                         {/* TODO: Fix mobile, add blinking cursor. */}
                         Other technologies used were TailwindCSS, and DaisyUI and Typed.js.
                     </p>
                 </div>
