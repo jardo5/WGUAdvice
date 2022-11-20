@@ -1,4 +1,5 @@
 import NavBar from '../components/navbar.js';
+import Image from 'next/image.js';
 
 export default function About() {
     return (
@@ -38,24 +39,24 @@ export default function About() {
                 <div className='bg-abtSlate flex w-72 h-80 justify-center items-center shadow-md shadow-black rounded-2xl'>
                     <div className='bg-abtBlue w-64 h-72 flex flex-col justify-evenly items-center rounded-2xl'>
                         <div className="tooltip" data-tip="Jardo#1108">
-                    <img className="hover:scale-110" src='images/discordBlack.png' alt="Discord Logo" width="172px" height="172px" ></img>
+                    <Image className="hover:scale-110" src='images/discordBlack.png' alt="Discord Logo" width="172px" height="172px" />
                     </div>
                         <h1>Feel free to ask questions</h1>
                     </div>
                 </div>
                 <div className='bg-abtSlate flex w-72 h-80 justify-center items-center shadow-md shadow-black rounded-2xl'>
                     <div className='bg-abtPink w-64 h-72 flex flex-col justify-evenly items-center rounded-2xl'>
-                    <a href="https://github.com/jardo5" target="_blank">
-                    <img className="hover:scale-110" src='images/githubBlack.png' alt="Github Logo" width="172px" height="172px" ></img>
+                    <a href="https://github.com/jardo5" target="_blank" rel="noreferrer">
+                    <Image className="hover:scale-110" src='images/githubBlack.png' alt="Github Logo" width="172px" height="172px" />
                     </a>    
                         <h1>Source Code</h1>
                     </div>
                 </div>
                 <div className='bg-abtSlate flex w-72 h-80 justify-center items-center shadow-md shadow-black rounded-2xl'>
                     <div className='bg-abtBlue w-64 h-72 flex flex-col justify-evenly items-center rounded-2xl'>
-                    <a href="#" target="_blank">
+                    <a href="#" target="_blank" rel="noreferrer">
                     <div className="tooltip" data-tip="W.I.P">
-                        <img className="hover:scale-110" src='images/webpageBlack.png' alt="Webpage Logo" width="172px" height="172px" ></img>
+                        <Image className="hover:scale-110" src='images/webpageBlack.png' alt="Webpage Logo" width="172px" height="172px" />
                     </div>
                     </a>
                         <h1>Personal Website</h1>
