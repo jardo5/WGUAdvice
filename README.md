@@ -1,7 +1,9 @@
 
 ## Welcome to WGU Advice!
 
-A website with resources and recommendations for BSSD and BSCS WGU students. W.I.P
+A website with resources and recommendations for BSSD and BSCS WGU students. W.I.P 
+
+Currently deployed on Vorcel https://wgu-advice-gqe67n78g-jardo5.vercel.app/
 
 
 
@@ -17,3 +19,7 @@ A website with resources and recommendations for BSSD and BSCS WGU students. W.I
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+
+
+## Warning
+I have no affiliation with WGU!! This is a fun side project for me to test out Next.js and TailwindCss together!!
